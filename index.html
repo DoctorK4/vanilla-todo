@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="Ko-kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanilla js Todolist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="app-title">오늘 뭐하지?</h1>
+  </header>
+  <main class="app">
+    <div class="input-wrapper">
+      <input class="input-todo" type="text" placeholder="할일을 적어주세요" />
+      <button class="add-todo">+</button>
+    </div>
+    <section class="todo-list-wrapper">
+      <ul class="todo-list">
+        <li class="todo">
+          <p class="todo-content">빨래하기</p>
+          <button class="delete-todo">삭제</button>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
